@@ -1,0 +1,28 @@
+{
+  "name": "ox-alpha",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ox Alpha — multi-agent decision support system",
+  "scripts": {
+    "dev": "next dev -p 4310",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "mock": "node scripts/mock-openai.mjs"
+  },
+  "dependencies": {
+    "next": "14.2.32",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "autoprefixer": "^10.4.20",
+    "@types/sqlite3": "^5.1.0",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3"
+  }
+}

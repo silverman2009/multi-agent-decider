@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-zinc-100 text-zinc-900 antialiased;
+}
+
+::selection {
+  @apply bg-emerald-200 text-emerald-900;
+}
+
+/* Thin scrollbars for model lists / code areas */
+.thin-scroll::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+.thin-scroll::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-zinc-300;
+}
