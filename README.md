@@ -56,7 +56,7 @@
 
 ```bash
 git clone https://github.com/silverman2009/multi-agent-decider.git
-cd multi-agent-decider.git
+cd multi-agent-decider
 npm install
 ```
 
